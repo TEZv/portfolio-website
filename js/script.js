@@ -31,6 +31,6 @@ cSharp.textContent = "Not yet";
 
 react.innerHTML = "In progress ~~~ 15%";
 node.innerHTML = "In progress ~~~ 15%";
-express.innerText = "In progress ~~~ 15%";
+express.innerText = "In progress ~~~ 5%";
 mongo.innerText = "In progress ~~~ 5%";
 sql.innerText = "In progress ~~~ 5%";
