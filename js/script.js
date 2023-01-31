@@ -9,6 +9,17 @@ function refresh() {
   }
 }
 
+//////////////HEADER
+//-------------T*HERO BUTTON IN THE BODY
+const certificate = document.getElementById("heroCertificates");
+function certificates() {
+  if (certificate.style.display === "none") {
+    certificate.style.display = "";
+  } else {
+    certificate.style.display = "none";
+  }
+}
+
 //-------------SPAN ELEMENTS IN SKILLS
 
 const html = document.getElementById("html");
@@ -34,3 +45,5 @@ node.innerHTML = "In progress ~~~ 15%";
 express.innerText = "In progress ~~~ 5%";
 mongo.innerText = "In progress ~~~ 5%";
 sql.innerText = "In progress ~~~ 5%";
+
+

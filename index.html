@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" type="text/css" href="style/style.css" />
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-    <script defer async src="./js/script.js"></script>
+    <script defer async type="text/javascript" src="./js/script.js"></script>
     <!--<script type="module"-->
 
     <script
@@ -115,351 +115,542 @@
     <header class="header">
       <!-- T*HERO SECTION -->
       <div class="hero-section" id="home">
-          <div class="section-container">
-              <div class="hero-container">
-                  <div class="hero-left">
-                      <div class="hero-header">
-                          <h1><span>Nice to meet you!</span>
-                              <br />
-                              I'm Oksana, a Full-Stack
-                              Web Developer <button onclick="refresh()" id="experience">Newbie</button>.
-                          </h1>
-                      </div>
-                      <div class="hero-subheader">
-                          <h5>
-                              I'm passionate about Programming, Design, Management, Marketing and 
-                              using my Skills to create Unordinate && Phenomenal User Experiences.
-                          </h5>
-                      </div>
-                      <div class="hero-btns">
-                      <a href="#contact" class="contact-btn"
-                          >Get in Touch:)</a>
-                      <a href="#projects" class="projects-btn"
-                          >View m*Projects</a
-                      >
-                      <a href="#certificates" class="projects-btn"
-                          >View m*Certificates</a
-                      >
-                      </div>
-                  </div>
-                  <div class="hero-right">
-                  <canvas id="bg"></canvas>
-                  <img 
-                  src="./img/portrait.jpg"
-                  class="portrait" 
-                  alt="Oksana Kolisnuk"
-                  >
-                  </div>
-              </div>
-          </div>
-      </div>
-  </header>
-
-  <!-- T*SKILLS SECTION -->
-    <section class="skills-section" id="skills">
         <div class="section-container">
-            <div class="section-titles">
-                <h2><span>M*Skills</span></h2>
-                <h3>The tools I use and improve every day.</h3>
-            </div>
-        
-            <div class="skill-card-container">
-                <div class="languages-card">
-                    <div class="card-title">
-                        <h4>P*Languages</h4>
-                    </div>
-                    <div class="languages-grid">
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-html5-plain devicon"></i>
-                            </div>
-                            <p class="small-p">HTML 5</p>
-                            <p id="html"></p>
-                        </div>
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-css3-plain devicon"></i>
-                            </div>
-                            <p class="small-p">CSS 3</p>
-                            <p id="css"></p>
-                        </div>
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-javascript-plain devicon"></i>
-                            </div>
-                            <p class="small-p">JavaScript</p>
-                            <p id="js"></p>
-                        </div>
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-csharp-plain devicon"></i>
-                            </div>
-                            <p class="small-p">Python</p>
-                            <p id="python"></p>
-                        </div>
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-csharp-plain devicon"></i>
-                            </div>
-                            <p  class="small-p">C#</p>
-                            <p id="cSharp"></p>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="technologies-card">
-                    <div class="card-title">
-                        <h4>P*Technologies</h4>
-                    </div>
-                    <div class="technologies-grid">
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-react-original devicon"></i>
-                            </div>
-                            <p class="small-p">React</p>
-                            <p id="react"></p>
-                        </div>
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-nodejs-plain devicon"></i>
-                            </div>
-                            <p class="small-p">Node.js</p>
-                            <p id="node"></p>
-                        </div>
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-express-original devicon"></i>
-                            </div>
-                            <p class="small-p">Express</p>
-                            <p id="express"></p>
-                        </div>
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-mongodb-plain devicon"></i>
-                            </div>
-                            <p class="small-p">MongoDB</p>
-                            <p id="mongo"></p>
-                        </div>
-                        <div class="grid-item">
-                            <div>
-                                <i class="devicon-microsoftsqlserver-plain devicon"></i>
-                            </div>
-                            <p class="small-p">SQL</p>
-                            <p id="sql"></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="other-tools-card">
-                  <div class="card-title">
-                      <h4>Other P*Tools</h4>
-                  </div>
-                  <div class="other-tools-grid">
-                      <div class="grid-item">
-                          <div>
-                              <i class="devicon-git-plain devicon"></i>
-                          </div>
-                          <p class="small-p">Git</p>
-                      </div>
-                      <div class="grid-item">
-                          <div>
-                              <i class="devicon-github-original devicon"></i>
-                          </div>
-                          <p class="small-p">Github</p>
-                      </div>
-                      <div class="grid-item">
-                          <div>
-                              <i class="devicon-vscode-plain devicon"></i>
-                          </div>
-                          <p class="small-p">VSCode</p>
-                      </div>
-                      <div class="grid-item">
-                          <div>
-                              <i class="devicon-visualstudio-plain devicon"></i>
-                          </div>
-                          <p class="smaller-p">Visual Studio</p>
-                      </div>
-                      <div class="grid-item">
-                          <div>
-                              <i class="devicon-webpack-plain devicon"></i>
-                          </div>
-                          <p class="small-p">Webpack</p>
-                      </div>
-                      <div class="grid-item">
-                          <div>
-                              <i class="devicon-npm-original-wordmark devicon"></i>
-                          </div>
-                          <p class="small-p">npm</p>
-                      </div>
-                  </div>
+          <div class="hero-container">
+            <div class="hero-left">
+              <div class="hero-header">
+                <h1>
+                  <span>Nice to meet you!</span>
+                  <br />
+                  I'm Oksana, a Full-Stack Web Developer
+                  <button onclick="refresh()" id="experience">Newbie</button>.
+                </h1>
               </div>
+              <div class="hero-subheader">
+                <h5>
+                  I'm passionate about Programming, Design, Management,
+                  Marketing and using my Skills to create Unordinate &&
+                  Phenomenal User Experiences.
+                </h5>
+              </div>
+              <div class="hero-btns">
+                <a href="#contact" class="contact-btn">Get in Touch:)</a>
+                <a href="#projects" class="projects-btn">View m*Projects</a>
+                <a href="#certificates" class="projects-btn"
+                  >View m*Certificates</a
+                >
+              </div>
+            </div>
+            <div class="hero-right">
+              <canvas id="bg"></canvas>
+              <img
+                src="./img/portrait.jpg"
+                class="portrait"
+                alt="Oksana Kolisnuk"
+              />
+            </div>
           </div>
-      </div>
-  </section>
-
-  <!-- T*PROJECTS SECTION-->
-  <section class="projects-section" id="projects">
-    <div class="section-container">
-        <div class="section-titles">
-            <h2><span>m*Projects</span></h2>
-            <h3 class="inverse-font-color">Learning projects I've completed in <a href="https://www.theodinproject.com/">TOP</a> and <a href="https://www.freecodecamp.org/">fCC</a>.</h3>
         </div>
-    
-            <div class="project-card-container">
-                <div class="project-card">
-                    <img src="" class="card-img" alt="Pomodoro Website">
-                    <div class="card-text">
-                        <h2 class="inverse-font-color">Pomodoro Website</h2>
-                        <p class="card-description inverse-font-color">Keep track on the time spent while working with the Computer.</p>
-                        <h4 class="inverse-font-color">
-                            Made with:
-                        </h4>
-                        <div class="made-with-grid inverse-font-color">
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-php-plain devicon"></i>
-                                </div>
-                                <p class="small-p">HTML 5</p>
-                            </div>
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-laravel-plain devicon"></i>
-                                </div>
-                                <p class="small-p">CSS 3</p>
-                            </div>
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-microsoftsqlserver-plain devicon"></i>
-                                </div>
-                                <p class="small-p">Javascript</p>
-                            </div>
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-bootstrap-plain devicon"></i>
-                                </div>
-                                <p class="small-p">Bootstrap</p>
-                            </div>
-                        </div>
-                        <div class="card-buttons">
-                          <a
-                            href=""
-                            target="_blank"
-                            class="project-preview-btn"
-                            ><i class="fas fa-external-link-alt">
-                            </i>Live Demo</a
-                            >
-                            <a
-                            href=""
-                            target="_blank"
-                            class="project-code-btn"
-                            >
-                            <i class="fas fa-code">
-                            </i>View Code</a
-                            >
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </header>
 
-                <div class="project-card">
-                    <img src="" class="card-img" alt="">
-                    <div class="card-text">
-                        <h2 class="inverse-font-color"></h2>
-                        <p class="card-description inverse-font-color">A study tool used to help memorise information using virtual 'flipcards'. Interfaces were used to make the app more loosely coupled.</p>
-                        <h4 class="inverse-font-color">
-                            Made with:
-                        </h4>
-                        <div class="made-with-grid inverse-font-color">
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-csharp-plain devicon"></i>
-                                </div>
-                                <p class="small-p"></p>
-                            </div>
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-microsoftsqlserver-plain devicon"></i>
-                                </div>
-                                <p class="small-p"></p>
-                            </div>
-                        </div>
-                        <div class="card-buttons">
-                          <a
-                            href=""
-                            target="_blank"
-                            class="project-preview-btn"
-                            ><i class="fas fa-external-link-alt">
-                            </i>Live Demo</a
-                            >
-                            <a
-                            href=""
-                            target="_blank"
-                            class="project-code-btn"
-                            >
-                            <i class="fas fa-code">
-                            </i>View Code</a
-                            >
-                        </div>
+    <!-- T*SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+      <div class="section-container">
+        <div class="section-titles">
+          <h2><span>M*Skills</span></h2>
+          <h3>The tools I use and improve every day.</h3>
+        </div>
+
+        <div class="skill-card-container">
+          <div class="languages-card">
+            <div class="card-title">
+              <h4>P*Languages</h4>
+            </div>
+            <div class="languages-grid">
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-html5-plain devicon"></i>
+                </div>
+                <p class="small-p">HTML 5</p>
+                <p id="html"></p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-css3-plain devicon"></i>
+                </div>
+                <p class="small-p">CSS 3</p>
+                <p id="css"></p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-javascript-plain devicon"></i>
+                </div>
+                <p class="small-p">JavaScript</p>
+                <p id="js"></p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-csharp-plain devicon"></i>
+                </div>
+                <p class="small-p">Python</p>
+                <p id="python"></p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-csharp-plain devicon"></i>
+                </div>
+                <p class="small-p">C#</p>
+                <p id="cSharp"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="technologies-card">
+            <div class="card-title">
+              <h4>P*Technologies</h4>
+            </div>
+            <div class="technologies-grid">
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-react-original devicon"></i>
+                </div>
+                <p class="small-p">React</p>
+                <p id="react"></p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-nodejs-plain devicon"></i>
+                </div>
+                <p class="small-p">Node.js</p>
+                <p id="node"></p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-express-original devicon"></i>
+                </div>
+                <p class="small-p">Express</p>
+                <p id="express"></p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-mongodb-plain devicon"></i>
+                </div>
+                <p class="small-p">MongoDB</p>
+                <p id="mongo"></p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-microsoftsqlserver-plain devicon"></i>
+                </div>
+                <p class="small-p">SQL</p>
+                <p id="sql"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="other-tools-card">
+            <div class="card-title">
+              <h4>Other P*Tools</h4>
+            </div>
+            <div class="other-tools-grid">
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-git-plain devicon"></i>
+                </div>
+                <p class="small-p">Git</p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-github-original devicon"></i>
+                </div>
+                <p class="small-p">Github</p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-vscode-plain devicon"></i>
+                </div>
+                <p class="small-p">VSCode</p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-visualstudio-plain devicon"></i>
+                </div>
+                <p class="smaller-p">Visual Studio</p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-webpack-plain devicon"></i>
+                </div>
+                <p class="small-p">Webpack</p>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <i class="devicon-npm-original-wordmark devicon"></i>
+                </div>
+                <p class="small-p">npm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- T*PROJECTS SECTION-->
+    <section class="projects-section" id="projects">
+      <div class="section-container">
+        <div class="section-titles">
+          <h2><span>m*Projects</span></h2>
+          <h3 class="inverse-font-color">
+            Learning projects I've completed on
+            <a href="https://www.theodinproject.com/">TOP</a> and
+            <a href="https://www.freecodecamp.org/">fCC</a>.
+          </h3>
+        </div>
+
+        <div class="project-card-container">
+          <div class="project-card">
+            <img src="" class="card-img" alt="Pomodoro Website" />
+            <div class="card-text">
+              <h2 class="inverse-font-color">Pomodoro Website</h2>
+              <p class="card-description inverse-font-color">
+                Keep track on the time spent while working with the Computer.
+              </p>
+              <h4 class="inverse-font-color">Made with:</h4>
+              <div class="made-with-grid inverse-font-color">
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-php-plain devicon"></i>
+                  </div>
+                  <p class="small-p">HTML 5</p>
+                </div>
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-laravel-plain devicon"></i>
+                  </div>
+                  <p class="small-p">CSS 3</p>
+                </div>
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-microsoftsqlserver-plain devicon"></i>
+                  </div>
+                  <p class="small-p">Javascript</p>
+                </div>
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-bootstrap-plain devicon"></i>
+                  </div>
+                  <p class="small-p">Bootstrap</p>
+                </div>
+              </div>
+              <div class="card-buttons">
+                <a href="" target="_blank" class="project-preview-btn"
+                  ><i class="fas fa-external-link-alt"> </i>Live Demo</a
+                >
+                <a href="" target="_blank" class="project-code-btn">
+                  <i class="fas fa-code"> </i>View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="" class="card-img" alt="" />
+            <div class="card-text">
+              <h2 class="inverse-font-color"></h2>
+              <p class="card-description inverse-font-color"></p>
+              <h4 class="inverse-font-color">Made with:</h4>
+              <div class="made-with-grid inverse-font-color">
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-csharp-plain devicon"></i>
+                  </div>
+                  <p class="small-p"></p>
+                </div>
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-microsoftsqlserver-plain devicon"></i>
+                  </div>
+                  <p class="small-p"></p>
+                </div>
+              </div>
+              <div class="card-buttons">
+                <a href="" target="_blank" class="project-preview-btn"
+                  ><i class="fas fa-external-link-alt"> </i>Live Demo</a
+                >
+                <a href="" target="_blank" class="project-code-btn">
+                  <i class="fas fa-code"> </i>View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="" class="card-img" alt="" />
+            <div class="card-text">
+              <h2 class="inverse-font-color"></h2>
+              <p class="card-description inverse-font-color"></p>
+              <h4 class="inverse-font-color">Made with:</h4>
+              <div class="made-with-grid inverse-font-color">
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-html5-plain devicon"></i>
+                  </div>
+                  <p class="small-p">HTML 5</p>
+                </div>
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-css3-plain devicon"></i>
+                  </div>
+                  <p class="small-p">CSS 3</p>
+                </div>
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-javascript-plain devicon"></i>
+                  </div>
+                  <p class="small-p">JavaScript</p>
+                </div>
+                <div class="grid-item">
+                  <div>
+                    <i class="devicon-webpack-plain devicon"></i>
+                  </div>
+                  <p class="small-p"></p>
+                </div>
+              </div>
+              <div class="card-buttons">
+                <a href="" target="_blank" class="project-preview-btn"
+                  ><i class="fas fa-external-link-alt"> </i>Live Demo</a
+                >
+                <a href="" target="_blank" class="project-code-btn">
+                  <i class="fas fa-code"> </i>View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- T*CERTIFICATES SECTION-->
+    <section class="projects-section" id="certificates">
+      <div class="section-container">
+        <div class="section-titles">
+          <h2><span>m*Certificates</span></h2>
+          <h3 class="inverse-font-color">
+            Learning certificates I've earned on
+            <a
+              href="https://www.linkedin.com/in/oksana-kolisnyk-0b9632247/"
+              target="_blank"
+              >Linked<span class="devicon-linkedin-plain devicon"></span></a
+            >, <img src="./img/cursa.png" alt="Cursa Icon" width="20px" /><a
+              href="https://cursa.app/en"
+              >Cursa</a
+            >,
+            <img
+              src="https://github.com/TheOdinProject/theodinproject/blob/main/public/favicon-16x16.png?raw=true"
+              alt="The Odin Project Icon"
+            /><a href="https://www.theodinproject.com/">TOP</a>
+            and
+            <img
+              src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg"
+              alt=""
+              width="20px"
+            /><a href="https://www.freecodecamp.org/">fCC</a>.
+          </h3>
+        </div>
+      </div>
+
+      <button id="btn-click" onclick="certificates()">Slightly Show</button>
+      <!--<input onclick="certificates()" type="button"></input>
+        <button onclick="certificates()" id="btn-click">Slightly Show</button>-->
+      <div id="heroCertificates" class="wrap" style="display:none;">
+        <div class="box animate pop" class="delay-3" style="display: inline-block;">
+        <iframe
+        src="./certificates/OksanaKolisnyk_certificate_0.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+    </div>
+    <div class="box animate pop delay-5" style="display: inline-block;">
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_1.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+        class="delay-4"
+      >
+      </iframe>
+      </div>
+      <div class="box animate pop delay-7" style="display: inline-block;">
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_2.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+        class="delay-"
+      >
+      </iframe>
+      </div>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_3.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_4.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_5.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_6.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_7.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_8.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_9.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_10.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      <iframe
+        src="./certificates/OksanaKolisnyk_certificate_11.pdf"
+        width="540"
+        height="400"
+        style="
+          border-radius: 100px;
+          background-color: rgb(13, 163, 93);
+          padding: 30px;
+          border: 2px dashed rgb(255, 237, 237);
+        "
+      >
+      </iframe>
+      </div>
+    </section>
+
+    <!-- T*CV / T*RESUME -->
+    <section class="resume-section" id="resume">
+        <div class="section-container">
+            <div class="container">
+                <div class="resume-left">
+                    <img class="resume-thumbnail" src="" alt="resume thumbnail">
+                    <div class="resume-links">
+                        <a 
+                        class="resume-link" 
+                        href="" 
+                        target="_blank"
+                        download
+                        ><i class="fas fa-arrow-down"></i> Download PDF
+                        </a>
+                        <a 
+                        class="resume-link" 
+                        href="" 
+                        target="_blank"
+                        ><i class="fas fa-external-link-alt"></i> View
+                        </a>
                     </div>
                 </div>
-    
-                <div class="project-card">
-                    <img src="" class="card-img" alt="">
-                    <div class="card-text">
-                        <h2 class="inverse-font-color"></h2>
-                        <p class="card-description inverse-font-color">A realtime weather app which pulls data from multiple APIs. Compiled final build using webpack.</p>
-                        <h4 class="inverse-font-color">
-                            Made with:
-                        </h4>
-                        <div class="made-with-grid inverse-font-color">
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-html5-plain devicon"></i>
-                                </div>
-                                <p class="small-p">HTML 5</p>
-                            </div>
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-css3-plain devicon"></i>
-                                </div>
-                                <p class="small-p">CSS 3</p>
-                            </div>
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-javascript-plain devicon"></i>
-                                </div>
-                                <p class="small-p">JavaScript</p>
-                            </div>
-                            <div class="grid-item">
-                                <div>
-                                    <i class="devicon-webpack-plain devicon"></i>
-                                </div>
-                                <p class="small-p"></p>
-                            </div>
-                        </div>
-                        <div class="card-buttons">
-                            <a
-                            href=""
-                            target="_blank"
-                            class="project-preview-btn"
-                            ><i class="fas fa-external-link-alt">
-                            </i>Live Demo</a
-                            >
-                            <a
-                            href=""
-                            target="_blank"
-                            class="project-code-btn"
-                            >
-                            <i class="fas fa-code">
-                            </i>View Code</a
-                            >
-                        </div>
+                <div class="resume-right">
+                    <div class="section-titles resume-titles">
+                        <h2><span>M*CV</span></h2>
+                        <h3 class="text-align-right">See my Work Experience, <br/>Education, Personal Information and more.</h3>
                     </div>
                 </div>
             </div>
-    </div>
-</section>
- <!-- T*CERTIFICATES SECTION-->
+        </div>
+    </section>
 
-  <!--<script type="module" src="./js/script.js"></script>-->
+    <!--<script type="module" src="./js/script.js"></script>-->
   </body>
 </html>

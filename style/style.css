@@ -1,0 +1,107 @@
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	animation: cubic-bezier(.26, .53, .74, 1.48) 5s forwards;
+}
+
+.box {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	
+	
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.animate {
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+  animation-delay: .5s;
+  animation-fill-mode: backwards;
+}
+/* shorthand version:
+animation: animation-name .75s cubic-bezier(.26, .53, .74, 1.48) .5s backwards;
+*/
+
+/* Pop In */
+.pop { animation-name: animate-pop; }
+
+@keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+/* Slide In */
+.slide { animation-name: animate-slide; }
+
+@keyframes animate-slide {
+  0% {
+    opacity: 0;
+    transform: translate(0, 40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+/* Slide Left */
+.slide-left { animation-name: animate-slide-left; }
+
+@keyframes animate-slide-left {
+  0% {
+    opacity: 0;
+    transform: translate(-40px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.delay-3 {
+  animation-delay: 0.9s;
+}
+.delay-4 {
+  animation-delay: 1.2s;
+}
+.delay-5 {
+  animation-delay: 1.5s;
+}
+.delay-6 {
+  animation-delay: 1.8s;
+}
+.delay-7 {
+  animation-delay: 2.1s;
+}
+.delay-8 {
+  animation-delay: 2.4s;
+}
+.delay-9 {
+  animation-delay: 2.7s;
+}
+.delay-10 {
+  animation-delay: 3s;
+}
+.delay-11 {
+  animation-delay: 3.3s;
+}
+.delay-12 {
+  animation-delay: 3.6s;
+}
+.delay-13 {
+  animation-delay: 3.9s;
+}
+.delay-14 {
+  animation-delay: 4.2s;
+}
+.delay-15 {
+  animation-delay: 4.5s;
+}
