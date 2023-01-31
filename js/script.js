@@ -1,12 +1,12 @@
 //////////////HEADER
 //-------------HERO BUTTON IN THE HEADER
 function refresh() {
-    const experience = document.getElementById("experience");
-    if (experience.textContent === "Newbie") {
-      experience.textContent = "Trainee";  
-    } else {
-        experience.textContent = "Newbie";
-    }
+  const experience = document.getElementById("experience");
+  if (experience.textContent === "Newbie") {
+    experience.textContent = "Trainee";
+  } else {
+    experience.textContent = "Newbie";
+  }
 }
 
 //-------------SPAN ELEMENTS IN SKILLS
@@ -34,4 +34,3 @@ node.innerHTML = "In progress ~~~ 15%";
 express.innerText = "In progress ~~~ 15%";
 mongo.innerText = "In progress ~~~ 5%";
 sql.innerText = "In progress ~~~ 5%";
-
