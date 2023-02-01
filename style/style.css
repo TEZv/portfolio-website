@@ -389,6 +389,301 @@ nav {
 	}
 }
 
+.hero-section {
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.container-left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.image-size {
+	width: 80vw;
+	max-width: 700px;
+}
+
+.blog-width p{
+	width: 80vw;
+	max-width: 700px;
+}
+
+.hero-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.hero-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	min-width: 60%;
+	max-width: 480px;
+	margin-right: auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .hero-left{
+    padding-bottom: 40px;
+  }
+}
+
+/* 
+@media screen and (max-width: 780px) {
+  .hero-left{
+    max-width: 100%;
+  }
+} */
+
+.hero-header {
+}
+
+.hero-subheader {
+	padding: 20px 0px 10px 0px;
+	max-width: 540px;
+}
+
+.hero-right {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	min-width: 40%;
+	max-width: 320px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-right{
+    margin-bottom: -50px;
+  }
+}
+
+/* @media screen and (max-width: 780px) {
+  .hero-right{
+    max-width: 100%;
+  }
+} */
+
+.portrait {
+	width: 340px;
+	max-width: 95vw;
+	margin-left: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+	.portrait {
+		margin-right: auto;
+	}
+}
+
+.hero-btns {
+	display: flex;
+	justify-content: flex-start;
+	padding: 10px 10px 10px 0px;
+}
+
+.contact-btn {
+	text-decoration: none;
+	margin: 10px 15px 10px 0px;
+	border: 0px;
+	background-color: black;
+	color: #fff;
+	padding: 10px;
+	box-shadow: 5px 5px #ff5e69, 5px 5px #ffffff;
+}
+
+.contact-btn:hover {
+	background-color: rgb(36, 36, 36);
+}
+
+.contact-btn:focus {
+}
+
+.projects-btn {
+	text-decoration: none;
+	margin: 10px 15px 10px 15px;
+	border: 0px;
+	background-color: black;
+	color: #fff;
+	padding: 10px;
+	box-shadow: 5px 5px #ff8d4b, 5px 5px #ffffff;
+}
+
+.projects-btn:hover {
+	background-color: rgb(36, 36, 36);
+}
+
+.projects-btn:focus {
+}
+
+.socials {
+}
+
+.linkedin-social-link {
+}
+
+.github-social-link {
+}
+
+.email-social-link {
+}
+
+.section-titles {
+}
+
+.skills-section {
+}
+
+.skill-card-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	/* padding: 20px 0px 20px 0px; */
+}
+
+.devicon {
+	font-size: 3rem;
+	padding-bottom: 10px;
+}
+
+.card-title {
+	padding: 30px 5px 10px 5px;
+}
+
+.languages-card {
+	min-width: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+.languages-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.technologies-card {
+	min-width: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.technologies-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.other-tools-card {
+	min-width: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.other-tools-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+	display: grid;
+	place-items: center;
+	padding: 10px;
+}
+
+.projects-section {
+	background-color: var(--inverse-background-color);
+	/* width: 100vw; */
+	display: flex;
+	justify-content: center;
+}
+
+.project-card-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
+.project-card {
+	background-image: linear-gradient(
+		130deg,
+		#000000 1%,
+		#0e0e0e 20%,
+		#131313 30%,
+		#000000 99%
+	);
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: center;
+	text-align: center;
+	max-width: 270px;
+	margin: 20px;
+	box-shadow: 5px 5px #ff8d4b;
+}
+
+.card-img {
+	width: 270px;
+}
+
+.card1 {
+}
+
+.card2 {
+}
+
+.card3 {
+}
+
+.card-text {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100%;
+	padding: 20px 20px 20px 20px;
+	text-align: justify;
+}
+
+.card-description {
+	padding: 20px 0px 30px 0px;
+}
+
+.made-with-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 20px;
+	align-self: flex-end;
+}
+
+
 
 
 
