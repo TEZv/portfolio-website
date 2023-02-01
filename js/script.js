@@ -11,12 +11,60 @@ function refresh() {
 
 //////////////HEADER
 //-------------T*HERO BUTTON IN THE BODY
-const certificate = document.getElementById("heroCertificates");
-function certificates() {
-  if (certificate.style.display === "none") {
-    certificate.style.display = "";
+const linkCertificates = document.getElementById("linkCertificates");
+const cursaCertificates = document.getElementById("cursaCertificates");
+const glCertificates = document.getElementById("glCertificates");
+const goitCertificates = document.getElementById("goitCertificates");
+const fccCertificates = document.getElementById("fccCertificates");
+const qaCertificates = document.getElementById("qaCertificates");
+
+
+
+function certificateLink() {
+  if (linkCertificates.style.display === "none") {
+    linkCertificates.style.display = "";
   } else {
-    certificate.style.display = "none";
+    linkCertificates.style.display = "none";
+  }
+}
+
+function certificateCursa() {
+  if (cursaCertificates.style.display === "none") {
+    cursaCertificates.style.display = "";
+  } else {
+    cursaCertificates.style.display = "none";
+  }
+}
+
+function certificateGL() {
+  if (glCertificates.style.display === "none") {
+    glCertificates.style.display = "";
+  } else {
+    glCertificates.style.display = "none";
+  }
+}
+
+function certificateGOIT() {
+  if (goitCertificates.style.display === "none") {
+    goitCertificates.style.display = "";
+  } else {
+    goitCertificates.style.display = "none";
+  }
+}
+
+function certificateFCC() {
+  if (fccCertificates.style.display === "none") {
+    fccCertificates.style.display = "";
+  } else {
+    fccCertificates.style.display = "none";
+  }
+}
+
+function certificateQA() {
+  if (qaCertificates.style.display === "none") {
+    qaCertificates.style.display = "";
+  } else {
+    qaCertificates.style.display = "none";
   }
 }
 
